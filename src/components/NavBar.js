@@ -3,15 +3,16 @@ import { NavLink as Link } from 'react-router-dom';
 
 const NavBar = (props) => {
     return (
-        <div>
-            <ul>
-                <li>
+        <div className="navbar">
+            <h5 className="nav-title">Jake's Portfolio</h5>
+            <ul className="nav-items-container">
+                <li className="nav-item">
                     <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className="nav-item">
                     <Link to="/about">About</Link>
                 </li>
-                <li>
+                <li className="nav-item">
                     <Link to="/projects">Projects</Link>
                 </li>
             </ul>

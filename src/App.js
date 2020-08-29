@@ -15,12 +15,14 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        Hello World
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects}/>
-          <Route path="/" component={Home} />
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects}/>
+            <Route path="/" component={Home} />
+          </Switch>
+        </div>
+        
          
       </div>
     </Router>
