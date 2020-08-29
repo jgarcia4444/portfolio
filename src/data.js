@@ -13,9 +13,9 @@ const projects = [
         imgs: ["imgs/InspoQuotes/Favorites.PNG", "imgs/InspoQuotes/Home.PNG", "imgs/InspoQuotes/Quote.PNG", "imgs/InspoQuotes/Search.PNG", "imgs/InspoQuotes/SetTime.PNG"],
         short: "iOS Inspirational Quote App. This app has over 1600 quotes that can be found randomly or by searching for keywords.",
     },
-    {
+    // {
 
-    }
+    // }
 ]
 
 export default projects;

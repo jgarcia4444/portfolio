@@ -1,5 +1,9 @@
+body {
+  background-color: #ecf0f1;
+}
 .App {
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .navbar {
@@ -39,6 +43,38 @@
   width: 80%;
   border-radius: 50%;
   border: 3px solid black;
-  box-shadow: 0 0 40px black;
+  box-shadow: 0 0 10px black;
 }
 
+#home-projects-container {
+  margin-top: 7%;
+}
+
+.project-overview-imgs {
+  width: 80%;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+  border: 1px solid black;
+}
+
+.project-overview-imgs:hover {
+  box-shadow: none;
+  border: none;
+}
+
+.to-project-btn {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: #3498db;
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+}
+
+.to-project-btn:hover {
+  box-shadow: none;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: underline;
+}
