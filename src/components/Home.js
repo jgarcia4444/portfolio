@@ -25,8 +25,10 @@ const Home = (props) => {
                     return (
                         <div className="six columns">
                             <h3>{project.title}</h3>
-                            <p>{project.short}</p>
-                            <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
+                            <p className="project-short">{project.short}</p>
+                            <NavLink to={`/projects/${project.id}`}>
+                                <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
+                            </NavLink>
                             <div className="row">
                                 <NavLink className="to-project-btn" to={`/projects/${project.id}`} >See full Project</NavLink>
                             </div>

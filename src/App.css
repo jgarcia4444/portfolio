@@ -54,13 +54,18 @@ body {
   width: 80%;
   height: 200px;
   border-radius: 20px;
-  box-shadow: 0 0 20px black;
+  box-shadow: none;
   border: 1px solid black;
 }
 
 .project-overview-imgs:hover {
-  box-shadow: none;
+  box-shadow: 0 0 20px black;
   border: none;
+}
+
+.project-overview-imgs:active {
+  box-shadow: none;
+  border: 1px solid black;
 }
 
 .to-project-btn {
@@ -73,8 +78,54 @@ body {
 }
 
 .to-project-btn:hover {
-  box-shadow: none;
-  background-color: #2980b9;
   color: white;
   text-decoration: underline;
+}
+
+.to-project-btn:active {
+  box-shadow: none;
+  background-color: #2980b9;
+}
+
+.project-short {
+  width: 70%;
+  margin: 5% auto;
+}
+
+#about-portrait {
+  width: 40%;
+  border: 2px solid black;
+  box-shadow: 0 0 10px;
+}
+
+#about-name-social-row {
+  margin-top: 7%;
+}
+
+#about-name {
+  text-align: left;
+}
+
+.social {
+  border-radius: 5px;
+  margin: auto 10px;
+  border: 1px solid black;
+}
+
+.social:hover {
+  box-shadow: 0 0 5px black;
+  border: none;
+}
+
+#social-icons {
+  text-align: right;
+}
+
+@media only screen and (max-width: 550px) {
+  #social-icons {
+    text-align: center;
+  }
+  #about-name {
+    text-align: center;
+  }
 }

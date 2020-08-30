@@ -22,8 +22,6 @@ function App() {
             <Route path="/" component={Home} />
           </Switch>
         </div>
-        
-         
       </div>
     </Router>
     
