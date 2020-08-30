@@ -1,5 +1,6 @@
 import React from 'react';
-import projects from '../data';
+import {socialIcons} from '../data';
+import { NavLink } from 'react-router-dom';
 
 const About = (props) => {
     return (
@@ -16,9 +17,11 @@ const About = (props) => {
                     </h3>
                 </div>
                 <div id="social-icons" className="six columns">
-                    {projects.map(project => {
+                    {socialIcons.map(social => {
                         return (
-                            <img className="social" src={project.imgs[0]} alt={project.title} width="36px" height="36px" />
+                            <a key={social.id} href={social.myAccount} target="_blank" rel="noopener noreferrer">
+                                <img  className="social" src={social.logoImgSrc} alt={social.title} width="24px" height="24px" style={{backgroundColor: social.backgroundColor }} />
+                            </a>
                         )
                     })}
                 </div>
@@ -40,6 +43,8 @@ const About = (props) => {
                     </p>
                 </div>
             </div>
+            <hr></hr>
+
         </div>
     )
 }

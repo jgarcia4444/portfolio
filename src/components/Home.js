@@ -19,6 +19,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
+            <hr></hr>
             <h2>Projects Overview</h2>
             <div className="row" id="home-projects-container">
                 {projects.map(project => {

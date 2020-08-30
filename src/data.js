@@ -21,4 +21,31 @@ const projects = [
     // }
 ]
 
-export default projects;
+const socialIcons = [
+    {
+        id: 1,
+        title: "Twitter",
+        logoImgSrc: "imgs/socials/Twitter.png",
+        backgroundColor: "#000000",
+        myAccount: "https://twitter.com/Jake_lykefewd"
+    },
+    {
+        id: 2,
+        title: "Instagram",
+        logoImgSrc: "imgs/socials/Instagram.png",
+        backgroundColor: "#ffffff",
+        myAccount: "https://www.instagram.com/jake_garcia/"
+    },
+    {
+        id: 3,
+        title: "Facebook",
+        logoImgSrc: "imgs/socials/Facebook.png",
+        backgroundColor: "#000000",
+        myAccount: "https://www.facebook.com/jake.garcia.9083/"
+    }
+]
+
+module.exports = {
+    projects: projects,
+    socialIcons: socialIcons
+};

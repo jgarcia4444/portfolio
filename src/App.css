@@ -107,9 +107,8 @@ body {
 }
 
 .social {
-  border-radius: 5px;
+  padding: 10px;
   margin: auto 10px;
-  border: 1px solid black;
 }
 
 .social:hover {
