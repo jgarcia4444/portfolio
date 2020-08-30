@@ -24,7 +24,7 @@ const Home = (props) => {
                 {projects.map(project => {
                     return (
                         <div className="six columns">
-                            <h3>{project.title}</h3>
+                            <h4>{project.title}</h4>
                             <p className="project-short">{project.short}</p>
                             <NavLink to={`/projects/${project.id}`}>
                                 <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
