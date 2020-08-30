@@ -53,12 +53,11 @@ body {
 
 .banner-bio {
   margin-top: 7%;
-  text-align: left;
 }
 
 
 #portrait {
-  width: 80%;
+  width: 60%;
   border-radius: 50%;
   border: 3px solid black;
   box-shadow: 0 0 10px black;
@@ -143,6 +142,10 @@ body {
   text-align: left;
 }
 
+#quick-bio {
+  text-align: left;
+}
+
 @media only screen and (max-width: 550px) {
   #social-icons {
     text-align: center;
@@ -150,4 +153,16 @@ body {
   #about-name {
     text-align: center;
   }
+
+  #portrait {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #quick-bio {
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
 }

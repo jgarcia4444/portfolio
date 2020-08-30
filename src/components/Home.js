@@ -9,10 +9,10 @@ const Home = (props) => {
             </h1>
             <div className="banner-bio">
                 <div className="row">
-                    <div className="four columns">
+                    <div className="six columns">
                         <img id="portrait" src="imgs/portrait.jpeg" alt="Jake Garcia" />
                     </div>
-                    <div className="eight columns">
+                    <div className="six columns">
                         <p id="quick-bio">
                             Hi my name is Jake and i'll keep it short so you'll check out my about page. I have created this website to showcase my projects and create an online presence.
                         </p>
