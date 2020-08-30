@@ -7,13 +7,13 @@ const NavBar = (props) => {
             <h5 className="nav-title">Jake's Portfolio</h5>
             <ul className="nav-items-container">
                 <li className="nav-item">
-                    <Link to="/">Home</Link>
+                    <Link className="nav-links" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/about">About</Link>
+                    <Link className="nav-links" to="/about">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/projects">Projects</Link>
+                    <Link className="nav-links" to="/projects">Projects</Link>
                 </li>
             </ul>
         </div>

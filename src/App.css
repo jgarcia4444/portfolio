@@ -29,7 +29,25 @@ body {
   margin: auto 0 auto 10%;
 }
 
-.nav-item>a {
+.nav-links {
+  text-decoration: none; 
+  color: black;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: #555;
+  text-shadow: 0 0 3px black;
+}
+
+.nav-links:active {
+  text-decoration: none;
+  color: black;
+  text-shadow: none;
+}
+
+.nav-links:visited {
+  color: black; 
   text-decoration: none;
 }
 

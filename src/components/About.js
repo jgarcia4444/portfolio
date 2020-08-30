@@ -1,6 +1,5 @@
 import React from 'react';
 import {socialIcons} from '../data';
-import { NavLink } from 'react-router-dom';
 
 const About = (props) => {
     return (
