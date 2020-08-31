@@ -19,7 +19,7 @@ const About = (props) => {
                     {socialIcons.map(social => {
                         return (
                             <a key={social.id} href={social.myAccount} target="_blank" rel="noopener noreferrer">
-                                <img  className="social" src={social.logoImgSrc} alt={social.title} width="24px" height="24px" style={{backgroundColor: social.backgroundColor }} />
+                                <img  className="social" src={social.logoImgSrc} alt={social.title} width="28px" height="28px" style={{backgroundColor: social.backgroundColor }} />
                             </a>
                         )
                     })}
