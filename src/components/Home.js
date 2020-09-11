@@ -24,7 +24,7 @@ const Home = (props) => {
             <div className="row" id="home-projects-container">
                 {projects.map(project => {
                     return (
-                        <div className="six columns">
+                        <div key={project.id} className="six columns">
                             <h4>{project.title}</h4>
                             <p className="project-short">{project.short}</p>
                             <NavLink to={`/projects/${project.id}`}>
