@@ -28,10 +28,10 @@ const projects = [
 const socialIcons = [
     {
         id: 1,
-        title: "Twitter",
-        logoImgSrc: "imgs/socials/Twitter.png",
+        title: "LinkedIn",
+        logoImgSrc: "imgs/socials/LinkedIn.png",
         backgroundColor: "#000000",
-        myAccount: "https://twitter.com/Jake_lykefewd"
+        myAccount: "https://www.linkedin.com/in/jake-garcia-318b09143/"
     },
     {
         id: 2,
@@ -42,11 +42,11 @@ const socialIcons = [
     },
     {
         id: 3,
-        title: "Facebook",
-        logoImgSrc: "imgs/socials/Facebook.png",
+        title: "GitHub",
+        logoImgSrc: "imgs/socials/GitHub.png",
         backgroundColor: "#000000",
-        myAccount: "https://www.facebook.com/jake.garcia.9083/"
-    }
+        myAccount: "https://github.com/jgarcia4444"
+    },
 ]
 
 module.exports = {
