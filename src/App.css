@@ -17,6 +17,23 @@ body {
   image-rendering: auto;
 }
 
+.project-short {
+  width: 90%;
+  margin: 5% auto;
+  text-align: left;
+  font-weight: 200;
+}
+
+.project-long {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+p {
+  font-weight: 200;
+}
+
 .project-imgs:hover {
   box-shadow: 0 0 40px black;
 }
@@ -154,7 +171,6 @@ body {
 #portrait {
   width: 60%;
   border-radius: 50%;
-  border: 3px solid black;
   box-shadow: 0 0 10px black;
 }
 
@@ -168,6 +184,11 @@ body {
   border-radius: 20px;
   box-shadow: none;
   border: 1px solid black;
+  margin-bottom: 3%;
+}
+
+.home-project-title {
+  margin-top: 3%;
 }
 
 .project-overview-imgs:hover {
@@ -206,8 +227,8 @@ body {
 
 #about-portrait {
   width: 40%;
-  border: 2px solid black;
   box-shadow: 0 0 10px;
+  border-radius: 50%;
 }
 
 #about-name-social-row {
@@ -243,6 +264,35 @@ body {
 
 .project-title {
   margin-top: 10%;
+}
+
+/* Project Card */
+.project-card {
+  width: 90%;
+  text-align: left;
+  margin: 5% auto;
+}
+
+.project-card-img {
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 10%;
+  box-shadow: 0 0 10px black;
+}
+
+.project-card-short {
+  /* width: 60%; */
+  display: inline-block;
+}
+
+.card-top-row {
+  width: 100%;
+}
+
+.project-card-title {
+  
+  display: inline-block;
+  width: 60%;
 }
 
 @media only screen and (max-width: 550px) {

@@ -1,11 +1,14 @@
 import React from 'react';
+import { projects } from '../data';
+import ProjectCard from './ProjectCard';
 
-const Projects = (props) => {
+const Projects = () => {
     return (
         <div>
             <h1>
-                Projects Page
+                Projects
             </h1>
+        {projects.map(project => <ProjectCard key={project.id} project={project} />)}
         </div>
     )
 }

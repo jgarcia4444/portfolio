@@ -25,7 +25,7 @@ const Home = (props) => {
                 {projects.map(project => {
                     return (
                         <div key={project.id} className="six columns">
-                            <h4>{project.title}</h4>
+                            <h4 className="home-project-title">{project.title}</h4>
                             <p className="project-short">{project.short}</p>
                             <NavLink to={`/projects/${project.id}`}>
                                 <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
@@ -33,7 +33,6 @@ const Home = (props) => {
                             <div className="row">
                                 <NavLink className="to-project-btn" to={`/projects/${project.id}`} >See full Project</NavLink>
                             </div>
-                            
                         </div>
                     )
                 })}
