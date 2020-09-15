@@ -8,7 +8,7 @@ const Project = (props) => {
         <div className="project-container">
             <h1 className="project-title">{project.title} Project</h1>
             {project.imgs.map(img => {
-                return <img className="project-imgs" key={img} src={`../${img}`} alt="Covid 19 Website Screen Shot" />
+                return <img className="project-imgs" key={img} src={`../${img}`} alt={project.title + " Screen shot."} />
             })}
         </div>
     );

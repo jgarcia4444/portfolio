@@ -7,13 +7,12 @@ body {
 
 .project-imgs {
   animation: Float;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-duration: 4s;
   width: 35%;
   margin: 5%;
   height: 100px;
   border-radius: 20px;
-  border: 1px solid black;
+
   box-shadow: 0 0 10px black;
   image-rendering: auto;
 }

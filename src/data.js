@@ -11,8 +11,8 @@ const projects = [
     },
     {
         id: 2,
-        title: "InspoQuotes",
-        imgs: ["imgs/InspoQuotes/Favorites.PNG", "imgs/InspoQuotes/Home.PNG", "imgs/InspoQuotes/Quote.PNG", "imgs/InspoQuotes/Search.PNG", "imgs/InspoQuotes/SetTime.PNG"],
+        title: "Dream Believe Achieve",
+        imgs: ["imgs/DreamBelieveAchieve/Favorites.PNG", "imgs/DreamBelieveAchieve/Home.PNG", "imgs/DreamBelieveAchieve/Quote.PNG", "imgs/InspoQuotes/Search.PNG", "imgs/InspoQuotes/SetTime.PNG"],
         short: "iOS Inspirational Quote App. This app has over 1600 quotes that can be found randomly or by searching for keywords. Quote push notifications available.",
         long: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aspernatur amet harum minus blanditiis repellendus nihil fugit incidunt, placeat praesentium id voluptas, nobis magni porro corrupti quia natus reiciendis nemo.",
         websiteUrl: "https://dba-landing-page.vercel.app/"
