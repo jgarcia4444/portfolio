@@ -124,6 +124,8 @@ p {
   margin-right: 5%;
 }
 
+
+
 .nav-items-container {
   display: block;
   width: 60%;
@@ -281,8 +283,7 @@ p {
 }
 
 .project-card-short {
-  /* width: 60%; */
-  display: inline-block;
+  margin: 3% auto 0 auto;
 }
 
 .card-top-row {
