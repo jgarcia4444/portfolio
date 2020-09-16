@@ -6,7 +6,7 @@ const projects = [
         title: "COVID-19 Numbers",
         imgs: ["imgs/COVID-19_Numbers/USTotalNumbers.png", "imgs/COVID-19_Numbers/TopSection.png", "imgs/COVID-19_Numbers/StateSection.png", "imgs/COVID-19_Numbers/ContactSection.png"],
         short: "A COVID-19 Web App that displays the numbers as a total for the United States. As well as has a picker to view individual states numbers.",
-        long: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aspernatur amet harum minus blanditiis repellendus nihil fugit incidunt, placeat praesentium id voluptas, nobis magni porro corrupti quia natus reiciendis nemo.",
+        long: "I wanted to practice my web development skills, so I didn’t have to think very much about what to create. COVID-19 has affected countless amounts of lives. I wanted to help people have a better understanding of exactly how many people have been affected by this pandemic. This web app was made to do just that. On the initial main numbers card it displays seven different numbers related to the virus. From total confirmed positive cases, to fatalities, to fatality increase from the previous day, to the mortality rate. Then on the second numbers card it shows all the same sets of numbers, but it gives the user an option to select a state within the United States then it displays the numbers associated with that state. The numbers are collected from a third party api that collects their numbers from official government sites.",
         websiteUrl: "https://covid-19-numbers.vercel.app/"
     },
     {
