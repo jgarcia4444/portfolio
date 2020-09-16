@@ -10,6 +10,8 @@ import About from './components/About';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Project from './components/Project';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <NavBar />
         <div className="container">
           <Switch>
+            <Route path="/contact" component={Contact} />
             <Route path="/projects/:id" component={Project}/>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects}/>
@@ -25,7 +28,9 @@ function App() {
             
           </Switch>
         </div>
+        
       </div>
+      <Footer />
     </Router>
     
   );

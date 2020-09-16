@@ -108,9 +108,8 @@ p {
 }
 
 .App {
-
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 .navbar {
@@ -124,7 +123,28 @@ p {
   margin-right: 5%;
 }
 
+/* Footer */
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
 
+.contact-link {
+  text-decoration: none;
+}
+
+
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: gray;
+}
 
 .nav-items-container {
   display: block;
