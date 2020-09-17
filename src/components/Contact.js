@@ -19,7 +19,7 @@ const Contact = () => {
                     <tr>
                         <td>Phone</td>
                         <td>(760)-892-4561</td>
-                        <td>Please leave a voicemail and i will return your call as soon as possible. Texts are also fine.</td>
+                        <td>I will try my best to answer all calls. Texts are also fine.</td>
                     </tr>
                 </table>
             </div>
