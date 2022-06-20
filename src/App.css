@@ -1,8 +1,16 @@
 body {
-  animation: Lighten-To-Grey;
-  animation-duration: 4s;
+  /* animation: Lighten-To-Grey;
+  animation-duration: 2s; */
   background-color: #bdc3c7;
   color: black;
+}
+
+:root {
+  --app-background-color: #FAF9F6;
+}
+
+.App {
+  background-color: var(--app-background-color);
 }
 
 .project-imgs {
@@ -85,42 +93,9 @@ p {
   }
 }
 
-
-
-@keyframes Lighten-To-Grey {
-  from {
-    background-color: black;
-    color: white;
-  }
-  to {
-    background-color: #bdc3c7;
-    color: black;
-  }
-}
-
-@keyframes Fix-For-Nav-Links {
-  from {
-    color: white;
-  }
-  to {
-    color: black;
-  }
-}
-
 .App {
   text-align: center;
   margin-bottom: 15%;
-}
-
-.navbar {
-  width: 100%;
-  margin: 7% 0 4% 0;
-  padding: 0;
-}
-.nav-title {
-  display: inline-block;
-  margin-left: 0;
-  margin-right: 5%;
 }
 
 /* Footer */
@@ -146,41 +121,7 @@ p {
   color: gray;
 }
 
-.nav-items-container {
-  display: block;
-  width: 60%;
-  margin-left: 5%;
-  float: right;
-}
 
-.nav-item {
-  display: inline-block;
-  margin: auto 0 auto 10%;
-}
-
-.nav-links {
-  animation: Fix-For-Nav-Links;
-  animation-duration: 4s;
-  text-decoration: none; 
-  color: black;
-}
-
-.nav-links:hover {
-  text-decoration: underline;
-  color: #555;
-  text-shadow: 0 0 3px black;
-}
-
-.nav-links:active {
-  text-decoration: none;
-  color: black;
-  text-shadow: none;
-}
-
-.nav-links:visited {
-  color: black; 
-  text-decoration: none;
-}
 
 .banner-bio {
   margin-top: 7%;
@@ -190,11 +131,7 @@ p {
   width: 90%;
 }
 
-#portrait {
-  width: 60%;
-  border-radius: 50%;
-  box-shadow: 0 0 10px black;
-}
+
 
 #home-projects-container {
   margin-top: 7%;
@@ -207,10 +144,6 @@ p {
   box-shadow: none;
   border: 1px solid black;
   margin-bottom: 3%;
-}
-
-.home-project-title {
-  margin-top: 3%;
 }
 
 .project-overview-imgs:hover {
@@ -277,10 +210,6 @@ p {
 
 #about-bio {
   margin-top: 5%;
-  text-align: left;
-}
-
-#quick-bio {
   text-align: left;
 }
 
