@@ -11,6 +11,8 @@ body {
 
 .App {
   background-color: var(--app-background-color);
+  padding-bottom: 10vh;
+  text-align: center;
 }
 
 .project-imgs {
@@ -93,11 +95,6 @@ p {
   }
 }
 
-.App {
-  text-align: center;
-  margin-bottom: 15%;
-}
-
 /* Footer */
 .footer {
   width: 100%;
@@ -134,7 +131,7 @@ p {
 
 
 #home-projects-container {
-  margin-top: 7%;
+  /* margin-top: 7%; */
 }
 
 .project-overview-imgs {
