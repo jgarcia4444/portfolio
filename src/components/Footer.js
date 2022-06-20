@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/Footer.css';
 
 const Footer = () => {
     return (
@@ -9,9 +10,11 @@ const Footer = () => {
                     Jake Garcia &copy; 2020
                 </div>
                 <div className="six columns">
-                    <NavLink className="contact-link" to="/contact">
-                        Contact
-                    </NavLink>
+                    <div className="contact-link-btn">
+                        <NavLink className="contact-link" to="/contact">
+                            Contact
+                        </NavLink>
+                    </div>
                 </div>
             </div>
         </div>
