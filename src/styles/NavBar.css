@@ -9,6 +9,16 @@
     margin-right: 5%;
 }
 
+.nav-title>.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-title:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .nav-items-container {
     display: block;
     width: 60%;
@@ -36,7 +46,6 @@
 
 .nav-links:hover, .nav-item:hover {
     color: white;
-    font-weight: bold;
 }
 
 .nav-item::before {

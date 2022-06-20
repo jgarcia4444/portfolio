@@ -5,7 +5,11 @@ import '../styles/NavBar.css';
 const NavBar = (props) => {
     return (
         <div className="navbar">
-            <h5 className="nav-title">Jake's Portfolio</h5>
+            <h5 className="nav-title">
+                <Link className="nav-item" to="/">
+                    Jake's Portfolio
+                </Link>
+            </h5>
             <ul className="nav-items-container">
                 <li className="nav-item">
                     <Link className="nav-links" to="/">Home</Link>
