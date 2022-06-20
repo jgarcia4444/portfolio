@@ -18,7 +18,7 @@ const Home = (props) => {
                 </div>
             </div>
             <hr></hr>
-            <h2>Projects Overview</h2>
+            <h2 id="projects-title">Projects Overview</h2>
             <div className="row" id="home-projects-container">
                 {projects.map(project => {
                     return (
@@ -28,8 +28,10 @@ const Home = (props) => {
                             <NavLink to={`/projects/${project.id}`}>
                                 <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
                             </NavLink>
-                            <div className="row">
-                                <NavLink className="to-project-btn" to={`/projects/${project.id}`} >See full Project</NavLink>
+                            <div className="row project-btn-row">
+                                <div className='to-project-btn'>
+                                    <NavLink className="to-project-btn-text" to={`/projects/${project.id}`} >See full Project</NavLink>
+                                </div>
                             </div>
                         </div>
                     )
