@@ -43,7 +43,7 @@ const socialIcons = [
     },
 ]
 
-module.exports = {
-    projects: projects,
-    socialIcons: socialIcons
+export {
+    projects,
+    socialIcons
 };

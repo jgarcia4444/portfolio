@@ -100,26 +100,10 @@ p {
   border-radius: 50%;
 }
 
-#about-name-social-row {
-  margin-top: 7%;
-}
+
 
 #about-name {
   text-align: left;
-}
-
-.social {
-  padding: 10px;
-  margin: auto 10px;
-}
-
-.social:hover {
-  box-shadow: 0 0 5px black;
-  border: none;
-}
-
-#social-icons {
-  text-align: right;
 }
 
 #about-bio {
