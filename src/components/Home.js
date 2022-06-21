@@ -2,6 +2,9 @@ import React from 'react';
 import { projects } from '../data.js';
 import { NavLink } from 'react-router-dom';
 import '../styles/Home.css';
+
+const {web, mobile} = projects;
+
 const Home = (props) => {
     return (
         <div className="home">
@@ -20,7 +23,23 @@ const Home = (props) => {
             <hr></hr>
             <h2 id="projects-title">Projects Overview</h2>
             <div className="row" id="home-projects-container">
-                {projects.map(project => {
+                {web.map(project => {
+                    return (
+                        <div key={project.id} className="six columns">
+                            <h4 className="home-project-title">{project.title}</h4>
+                            <p className="project-short">{project.short}</p>
+                            <NavLink to={`/projects/${project.id}`}>
+                                <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
+                            </NavLink>
+                            <div className="row project-btn-row">
+                                <div className='to-project-btn'>
+                                    <NavLink className="to-project-btn-text" to={`/projects/${project.id}`} >See full Project</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+                {mobile.map(project => {
                     return (
                         <div key={project.id} className="six columns">
                             <h4 className="home-project-title">{project.title}</h4>
