@@ -1,16 +1,16 @@
-body {
-  background-color: #bdc3c7;
-  color: black;
-  z-index: 1;
-}
-
 :root {
   --app-background-color: #FAF9F6;
 }
 
+body {
+  background-color: var(--app-background-color);
+  color: black;
+  z-index: 1;
+}
+
+
 .App {
   background-color: var(--app-background-color);
-  padding-bottom: 10vh;
   text-align: center;
 }
 

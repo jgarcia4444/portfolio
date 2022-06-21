@@ -10,9 +10,6 @@ const Home = (props) => {
         <div className="home">
             <div className="banner-bio">
                 <div className="row">
-                    {/* <div className="six columns">
-                        <img id="portrait" src="imgs/portrait.png" alt="Jake Garcia" />
-                    </div> */}
                     <div className="twelve columns">
                         <p id="quick-bio">
                             Welcome to my portfolio site! I am a full software developer. I build web and mobile applications because they often go hand in hand together. Here I am trying to showcase my projects that I have completed as well as showcase my skills growing.

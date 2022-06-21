@@ -1,0 +1,20 @@
+
+.contact-anchor {
+    color: #3498db;
+}
+
+.contact-details {
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.contact-page-container {
+    
+}
+
+.contact-table {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px -1px black;
+}
