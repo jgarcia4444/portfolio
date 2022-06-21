@@ -2,6 +2,7 @@ import React from 'react';
 import { projects } from '../data.js';
 import { NavLink } from 'react-router-dom';
 import '../styles/Home.css';
+import ProjectOverview from './ProjectOverview/index.js';
 
 const {web, mobile} = projects;
 
@@ -22,18 +23,7 @@ const Home = (props) => {
             <div className="row" id="home-projects-container">
                 {web.map(project => {
                     return (
-                        <div key={project.id} className="six columns">
-                            <h4 className="home-project-title">{project.title}</h4>
-                            <p className="project-short">{project.short}</p>
-                            <NavLink to={`/projects/${project.id}`}>
-                                <img className="project-overview-imgs" src={project.imgs[0]} alt={project.title} />
-                            </NavLink>
-                            <div className="row project-btn-row">
-                                <div className='to-project-btn'>
-                                    <NavLink className="to-project-btn-text" to={`/projects/${project.id}`} >See full Project</NavLink>
-                                </div>
-                            </div>
-                        </div>
+                        <ProjectOverview project={project} />
                     )
                 })}
                 {mobile.map(project => {
