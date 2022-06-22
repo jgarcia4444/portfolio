@@ -13,12 +13,16 @@ import Project from './components/Project';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
+import appBackground from './imgs/backgrounds/palm-mountain-bg.jpg';
+
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <img className="app-background" src={appBackground} />
+        
         <div className="container">
+        <NavBar />
           <Switch>
             <Route path="/contact" component={Contact} />
             <Route path="/projects/web/:id" component={Project}/>
