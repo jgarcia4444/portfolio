@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { projects } from '../data';
-import ProjectCard from './ProjectCard';
+import ProjectOverview from './ProjectOverview';
 import '../styles/Projects.css';
 
 const {web, mobile} = projects;
@@ -11,9 +11,9 @@ const Projects = () => {
 
     const renderProjects = () => {
         return showWebApps === true ?
-            web.map(webProject => <ProjectCard key={webProject.id} project={webProject} />)
+            web.map(webProject => <ProjectOverview isWeb={showWebApps} key={webProject.id} project={webProject} />)
             :
-            mobile.map(mobileProject => <ProjectCard key={mobileProject.id} project={mobileProject} />)
+            mobile.map(mobileProject => <ProjectOverview isWeb={showWebApps} key={mobileProject.id} project={mobileProject} />)
     }
 
     return (

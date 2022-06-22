@@ -21,7 +21,8 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/contact" component={Contact} />
-            <Route path="/projects/:id" component={Project}/>
+            <Route path="/projects/web/:id" component={Project}/>
+            <Route path="/projects/mobile/:id" component={Project}/>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects}/>
             <Route path="/" component={Home} />

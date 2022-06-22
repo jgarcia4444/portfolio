@@ -3,7 +3,11 @@ import { projects } from '../data';
 
 const Project = (props) => {
     const projectIndex = props.match.params.id - 1;
-    const project = projects[projectIndex];
+    const specificProjects = props.match.url.includes('web') ? projects.web : projects.mobile;
+    const project = specificProjects[projectIndex];
+
+    console.log("HERE IS THE PROJECT INFO!", project)
+
     return (
         <div className="project-container">
             <h1 className="project-title">{project.title} Project</h1>
@@ -12,7 +16,7 @@ const Project = (props) => {
             </p>
             <hr />
             {project.imgs.map(img => {
-                return <img className="project-imgs" key={img} src={`../${img}`} alt={project.title + " Screen shot."} />
+                return <img className="project-imgs" key={img} src={`../../${img}`} alt={project.title + " Screen shot."} />
             })}
             <hr />
             <a className="website-link" target="_blank" rel="noopener noreferrer" href={project.websiteUrl}>Visit Website</a>
