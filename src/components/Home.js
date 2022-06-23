@@ -7,7 +7,7 @@ const Home = (props) => {
 
     return (
         <OpaqueContainer>
-            <div className="home">
+            <div className="row home">
                 <div className="row welcome-row">
                     <h1 className="welcome-text">Welcome</h1>
                 </div>
@@ -38,7 +38,7 @@ const Home = (props) => {
                         <h3>Applications</h3>
                     </div>
                     <div className="twelve columns">
-                        <p className="explantion-text">With code written from scratch by yours truly.</p>
+                        <p className="explantion-text">With code written from scratch.</p>
                     </div>
                 </div>
                 <div className="container explanation-container">

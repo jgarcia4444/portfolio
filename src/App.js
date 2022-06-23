@@ -19,9 +19,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <img className="app-background" src={appBackground} />
+        <img alt="Background of Palm Springs, Ca" className="app-background" src={appBackground} />
         
-        <div className="container">
+        <div className="container-fluid">
         <NavBar />
           <Switch>
             <Route path="/contact" component={Contact} />

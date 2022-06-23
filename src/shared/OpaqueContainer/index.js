@@ -4,7 +4,7 @@ import '../../styles/OpaqueContainer.css'
 const OpaqueContainer = ({children}) => {
 
     return (
-        <div className="opaque-container">
+        <div className="container-fluid opaque-container">
             {children}
         </div>
     )
