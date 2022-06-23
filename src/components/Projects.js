@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { projects } from '../data';
 import ProjectOverview from './ProjectOverview';
 import '../styles/Projects.css';
+import OpaqueContainer from '../shared/OpaqueContainer';
 
 const {web, mobile} = projects;
 
@@ -17,7 +18,7 @@ const Projects = () => {
     }
 
     return (
-        <div>
+        <OpaqueContainer>
             <h1>
                 Projects
             </h1>
@@ -27,8 +28,10 @@ const Projects = () => {
                     <div onClick={() => setShowWebApps(false)} style={{backgroundColor: showWebApps === false ? 'black' : 'transparent', color: showWebApps === false ? 'white' : 'black'}} className="switch-tab mobile-switch-tab">Mobile</div>
                 </div>
             </div>
-        {renderProjects()}
-        </div>
+            <div className="container">
+                {renderProjects()}
+            </div>
+        </OpaqueContainer>
     )
 }
 

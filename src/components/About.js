@@ -1,6 +1,7 @@
 import React from 'react';
 import {socialIcons} from '../data';
 import '../styles/About.css';
+import OpaqueContainer from '../shared/OpaqueContainer';
 
 const About = (props) => {
 
@@ -15,7 +16,7 @@ const About = (props) => {
     }
 
     return (
-        <div>
+        <OpaqueContainer>
             <div className="row" id="about-name-social-row">
                 <div id="about-name" className="six columns">
                     <h3>
@@ -43,9 +44,7 @@ const About = (props) => {
                     </p>
                 </div>
             </div>
-            <hr></hr>
-
-        </div>
+        </OpaqueContainer>
     )
 }
 
