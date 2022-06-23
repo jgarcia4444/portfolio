@@ -5,6 +5,7 @@
 }
 
 .app-icon:hover {
+    z-index: 100;
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -36,6 +37,22 @@
 .explantion-text {
     font-size: 2em;
     text-align: left;
+}
+
+.left-using-columns, .right-using-columns {
+    text-align: left;
+}
+
+.using-list-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.using-title {
+    font-weight: bold;
 }
 
 .welcome-row {
