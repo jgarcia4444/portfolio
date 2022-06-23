@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.explanation-container {
+.donts-container {
     /* display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -39,11 +39,11 @@
     text-align: left;
 }
 
-.left-using-columns, .right-using-columns {
+.left-using-columns, .right-using-columns, .left-dont-columns, .right-dont-columns {
     text-align: left;
 }
 
-.using-list-container {
+.using-list-container, .donts-container {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;

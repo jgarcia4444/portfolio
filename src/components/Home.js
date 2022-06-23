@@ -50,14 +50,13 @@ const Home = (props) => {
                         <div className="row">
                             <div className="six columns left-using-columns">
                                 <ul>
-                                    
                                     <li><OutboundLink content="HTML" to="https://www.w3schools.com/html/" /></li>
                                     <li><OutboundLink content="CSS" to="https://developer.mozilla.org/en-US/docs/Web/CSS" /></li>
                                     <li><OutboundLink content="Javascript" to="https://developer.mozilla.org/en-US/docs/Web/JavaScript" /></li>
                                     <li><OutboundLink content="Ruby" to="https://www.geeksforgeeks.org/ruby-programming-language/"/></li>
                                 </ul>
                             </div>
-                            <div className="right-using-columns">
+                            <div className="six columns right-using-columns">
                                 <ul>
                                     <li><OutboundLink content="Bootstrap (CSS framework)" to="https://www.toptal.com/front-end/what-is-bootstrap-a-short-tutorial-on-the-what-why-and-how" /></li>
                                     <li><OutboundLink content="React (Javascript web framework)" to="https://reactjs.org/" /></li>
@@ -68,12 +67,28 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="container explanation-container">
-                    <h3>I don't use ...</h3>
-                    <ul className="donts-list">
-                        <li>A CMS (content management system)</li>
-                        <li>Click and drag software</li>
-                    </ul>
+                <div className="container">
+                    <div className="donts-container">
+                        <div className="row">
+                            <div className="twelve columns">
+                                <h3>I don't use ...</h3>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns left-dont-columns">
+                                <ul className="donts-list">
+                                    <li>A CMS (content management system)</li>
+                                    <li>Click and drag software</li>
+                                </ul>
+                            </div>
+                            <div className="six columns right-dont-columns">
+                                <ul className="donts-list">
+                                    <li>Wordpress</li>
+                                    <li>Squarespace</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </OpaqueContainer>
