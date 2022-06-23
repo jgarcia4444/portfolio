@@ -1,21 +1,51 @@
 
-#home-projects-container {
-    margin-bottom: 7vh;
+
+.app-icon {
+    transition: all 500ms;
 }
 
-#projects-title {
-    text-align: left;
+.app-icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
-#quick-bio {
-    text-align: left;
-    font-weight: 100;
-    font-family: sans-serif;
-    font-size: 1.5em;
+.app-icon:active {
+    transform: scale(1);
 }
 
-.home {
+.develop-text {
+}
+
+.develop-row {
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.donts-list {
+    text-align: left;
+}
+
+.explanation-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100% */
+}
+
+.explantion-text {
+    font-size: 2em;
+    text-align: left;
+}
+
+.welcome-row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.welcome-text {
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 500;
 }

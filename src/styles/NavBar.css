@@ -1,7 +1,14 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     margin: 0 0 4% 0;
-    padding-top: 7vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding-top: 1.5%;
+    box-shadow: 0 0 3px -1px black;
 }
 .nav-title {
     display: inline-block;
