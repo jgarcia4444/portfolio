@@ -1,15 +1,37 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { projects } from '../data';
-import ProjectCard from './ProjectCard';
+import ProjectOverview from './ProjectOverview';
+import '../styles/Projects.css';
+import OpaqueContainer from '../shared/OpaqueContainer';
+
+const {web, mobile} = projects;
 
 const Projects = () => {
+
+    const [showWebApps, setShowWebApps] = useState(true);
+
+    const renderProjects = () => {
+        return showWebApps === true ?
+            web.map(webProject => <ProjectOverview isWeb={showWebApps} key={webProject.id} project={webProject} />)
+            :
+            mobile.map(mobileProject => <ProjectOverview isWeb={showWebApps} key={mobileProject.id} project={mobileProject} />)
+    }
+
     return (
-        <div>
+        <OpaqueContainer>
             <h1>
                 Projects
             </h1>
-        {projects.map(project => <ProjectCard key={project.id} project={project} />)}
-        </div>
+            <div className="switch-projects-type-row">
+                <div className="switch-projects-type-container">
+                    <div onClick={() => setShowWebApps(true)} style={{backgroundColor: showWebApps === true ? 'black' : 'transparent', color: showWebApps === true ? 'white' : 'black'}} className="switch-tab web-switch-tab">Web</div>
+                    <div onClick={() => setShowWebApps(false)} style={{backgroundColor: showWebApps === false ? 'black' : 'transparent', color: showWebApps === false ? 'white' : 'black'}} className="switch-tab mobile-switch-tab">Mobile</div>
+                </div>
+            </div>
+            <div className="container">
+                {renderProjects()}
+            </div>
+        </OpaqueContainer>
     )
 }
 

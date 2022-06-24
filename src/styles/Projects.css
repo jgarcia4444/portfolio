@@ -1,0 +1,37 @@
+
+.switch-projects-type-container {
+    width: 20vw;
+    display: flex;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+}
+
+.switch-projects-type-row {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.switch-tab {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-weight: bold;
+    transition: all 500ms;
+    border-radius: 20px;
+}
+
+.switch-tab:hover {
+    cursor: pointer;
+}
+
+.mobile-switch-tab {
+
+}
+
+.web-switch-tab {
+
+}

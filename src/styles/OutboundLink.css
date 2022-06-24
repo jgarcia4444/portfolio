@@ -1,0 +1,10 @@
+
+.outbound-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.outbound-link:hover {
+    cursor: pointer;
+}

@@ -1,14 +1,22 @@
 import React from 'react';
 import {socialIcons} from '../data';
+import '../styles/About.css';
+import OpaqueContainer from '../shared/OpaqueContainer';
 
 const About = (props) => {
+
+    const renderSocialIcons = () => {
+        return socialIcons.map(social => {
+            return (
+                <a className="social-icon-anchor" key={social.id} href={social.myAccount} target="_blank" rel="noopener noreferrer">
+                    <img className="social" src={social.logoImgSrc} alt={social.title} width="28px" height="28px" />
+                </a>
+            )
+        })
+    }
+
     return (
-        <div>
-            <div className="row">
-                <div className="twelve columns">
-                    <img id="about-portrait" src="imgs/portrait.jpeg" alt="Jake Garcia" />
-                </div>
-            </div>
+        <OpaqueContainer>
             <div className="row" id="about-name-social-row">
                 <div id="about-name" className="six columns">
                     <h3>
@@ -16,13 +24,7 @@ const About = (props) => {
                     </h3>
                 </div>
                 <div id="social-icons" className="six columns">
-                    {socialIcons.map(social => {
-                        return (
-                            <a key={social.id} href={social.myAccount} target="_blank" rel="noopener noreferrer">
-                                <img  className="social" src={social.logoImgSrc} alt={social.title} width="28px" height="28px" style={{backgroundColor: social.backgroundColor }} />
-                            </a>
-                        )
-                    })}
+                    {renderSocialIcons()}
                 </div>
             </div>
             <div className="row" id="about-bio">
@@ -42,9 +44,7 @@ const About = (props) => {
                     </p>
                 </div>
             </div>
-            <hr></hr>
-
-        </div>
+        </OpaqueContainer>
     )
 }
 

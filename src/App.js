@@ -13,15 +13,20 @@ import Project from './components/Project';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
+import appBackground from './imgs/backgrounds/palm-mountain-bg.jpg';
+
 function App() {
   return (
     <Router>
       <div className="App">
+        <img alt="Background of Palm Springs, Ca" className="app-background" src={appBackground} />
+        
+        <div className="container-fluid">
         <NavBar />
-        <div className="container">
           <Switch>
             <Route path="/contact" component={Contact} />
-            <Route path="/projects/:id" component={Project}/>
+            <Route path="/projects/web/:id" component={Project}/>
+            <Route path="/projects/mobile/:id" component={Project}/>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects}/>
             <Route path="/" component={Home} />
