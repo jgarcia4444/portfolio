@@ -4,6 +4,22 @@ const projects = {
     web: [
         {
             id: 1,
+            title: "Hungry Snake",
+            imgs: ["imgs/hungry-snake/game-board.png", "imgs/hungry-snake/home.png", "imgs/hungry-snake/leaderboard.png", "imgs/hungry-snake/instructions.png"],
+            short: "Classic snake game built using HTML, CSS and Javscript. A fun harmless game that test the users ability to focus.",
+            long: "A snake game where users gain points by eating food as well as destroying enemy snakes. Add length to the snake by 1 or 3 and this also adds points to your score. destroying an enemy snake givs you five points. Once a user loses they have the ability to save their score to the leaderboard.",
+            websiteUrl: "https://hungry-snake.vercel.app/"
+        },
+        {
+            id: 2,
+            title: "Blood Pressure Numbers",
+            imgs: ["imgs/bpn-web/bpn-web-home-1.png", "imgs/bpn-web/bpn-web-home-2.png"],
+            short: "A companion web site to showcase the features of my iOS app Blood Pressure Numbers. Also to serve as a channel of communication.",
+            long: "This website is meant to showcase the features of an iOS app that I made called Blood Pressure Numbers. It also has a forum that visitors can use to write questions or problems that they may be having with the app. All in all this web site is meant to support the mobile app Blood Pressure Numbers.",
+            websiteUrl: "https://bpn-app.vercel.app/home",
+        },
+        {
+            id: 3,
             title: "COVID-19 Numbers",
             imgs: ["imgs/COVID_19_Numbers/USTotalNumbers.png", "imgs/COVID_19_Numbers/TopSection.png", "imgs/COVID_19_Numbers/StateSection.png", "imgs/COVID_19_Numbers/ContactSection.png"],
             short: "A COVID-19 Web App that displays the numbers as a total for the United States. As well as has a picker to view individual states numbers.",
