@@ -30,12 +30,12 @@ const About = (props) => {
             <div className="row" id="about-bio">
                 <div className="four columns">
                     <p>
-                    My name is Jake Garcia and I am an aspiring software developer. I have no formal education in the field, but I am an obsessive learner and love to find out details about something so I can fully understand it and pick it apart. I started with some iOS app development Udemy courses and then I ventured to Codecademy to learn web development. A couple months later I was getting into programming pretty rigorously and continuing to try to become a better developer. I started a fundamentals of web development bootcamp at the University of Redlands. 
+                        <strong>Education:</strong> I first started to teach myself with multiple free online resources such as Codecademy and Youtube to learn the basics of web development. This included learning HTML, CSS and Javascript. Once i felt that I needed to learn more to be able to grasp enough knowledge to really start building projects I then started to buy books and courses on Udemy. I had been "teaching" myself how to code for about a year and a half and then in the month of September 2019 I enrolled in a fundamentals of full stack web development bootcamp at the University of Redlands about an hour away from where I live. Through this course it made the knowledge I had already gained through the multitude of free resources online more concrete because I got the chance to help other students who were coming into the course with no previous knowledge of coding. 
                     </p>
                 </div>
                 <div className="four columns">
                     <p>
-                    This course helped me a ton by just coding with other people. Most of my learning and coding had been by myself. Being able to explain to my classmates how to solve something or to decipher what my teacher said in plain English, which I found myself doing quite often not because the teacher was bad, but I think he was overqualified for the position due to most of the students being complete newcomers. Another couple of months went by and I still did not feel like I had web development fully understood.
+                    After completing this bootcamp I still felt that I had more to learn before attempting to work for a big time company. I found an online bootcamp after researching and looking at many other options offered by Flatiron School based out of New York City. This bootcamp was a self paced online full stack web development course that went into way more detail than the previous bootcamp I completed. This second boot camp taught me modern frameworks that are used to build reponsive, fast and reliable web apps.
                     </p>
                 </div>
                 <div className="four columns">
