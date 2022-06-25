@@ -66,17 +66,8 @@ p {
   }
 }
 
-@media only screen and (max-width: 405px) {
-  /* .App {
-    padding: 33% 0;
-  } */
-}
 
 @media only screen and (min-width: 405px) {
-
-  /* .App {
-    padding: 30% 0;
-  } */
 
   .project-title {
     font-size: 2em;
@@ -93,9 +84,6 @@ p {
   .project-imgs {
     height: 150px;
   }
-  /* .App {
-    padding: 11% 0;
-  } */
 }
 
 @media only screen and (min-width: 968px) {
@@ -104,31 +92,13 @@ p {
     margin: 5% 1.4%;
     height: 225px;
   }
-  /* .App {
-    padding: 9% 0;
-  } */
-}
-
-.project-container {
-  /* width: 90%; */
-}
-
-#about-portrait {
-  width: 25%;
-  box-shadow: 0 0 10px;
-  border-radius: 50%;
 }
 
 
 
-#about-name {
-  text-align: left;
-}
 
-#about-bio {
-  margin-top: 5%;
-  text-align: left;
-}
+
+
 
 .project-title {
   margin-top: 3%;

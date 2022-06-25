@@ -94,6 +94,7 @@ h5.nav-title {
   padding: 5px;
   border-radius: 10px;
   background-color: black;
+  margin: 10px 0;
 }
 
 .mobile-menu-button:hover {
@@ -140,5 +141,14 @@ h5.nav-title {
   text-decoration: none;
   color: #3498db;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-title-container {
+    width: 40%;
+  }
+  h5.nav-title {
+    font-size: 1em;
+  }
 }
 

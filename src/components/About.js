@@ -18,12 +18,12 @@ const About = (props) => {
     return (
         <OpaqueContainer>
             <div className="row" id="about-name-social-row">
-                <div id="about-name" className="six columns">
+                <div id="about-name" className="">
                     <h3>
                         Jake Garcia
                     </h3>
                 </div>
-                <div id="social-icons" className="six columns">
+                <div id="social-icons" className="">
                     {renderSocialIcons()}
                 </div>
             </div>

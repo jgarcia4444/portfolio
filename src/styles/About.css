@@ -1,13 +1,27 @@
 
 #about-name-social-row {
-    margin-top: 7%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#about-name {
+    text-align: left;
+    width: 50%
+}
+  
+#about-bio {
+    margin-top: 20px;
+    text-align: left;
 }
   
 #social-icons {
-    flex: 1;
     text-align: right;
     display: flex;
     justify-content: flex-end;
+    width: 50%;
 }
 
 .social-icon-anchor {
@@ -25,4 +39,22 @@
     transform: scale(1.1);
     box-shadow: 0 0 5px 0 black;
     background-color: rgba(128, 128, 128, 1.0);
+}
+
+@media only screen and (max-width: 600px ) {
+    #about-name-social-row {
+        flex-direction: column;
+    }
+    #about-name, #social-icons {
+        width: 100%;
+    }
+
+    #about-name {
+        text-align: center;
+    }
+
+    #social-icons {
+        align-items: center;
+        justify-content: center;
+    }
 }

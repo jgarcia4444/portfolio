@@ -1,6 +1,6 @@
 
 .switch-projects-type-container {
-    width: 20vw;
+    width: 40vw;
     display: flex;
     border: 1px solid black;
     border-top: 2px solid black;
@@ -26,12 +26,4 @@
 
 .switch-tab:hover {
     cursor: pointer;
-}
-
-.mobile-switch-tab {
-
-}
-
-.web-switch-tab {
-
 }

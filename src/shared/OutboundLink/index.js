@@ -4,7 +4,7 @@ import '../../styles/OutboundLink.css'
 const OutboundLink = ({content, to}) => {
 
     return (
-        <a className="outbound-link" target="_blank" href={to}>{content}</a>
+        <a rel="noopener noreferrer" className="outbound-link" target="_blank" href={to}>{content}</a>
     )
 }
 

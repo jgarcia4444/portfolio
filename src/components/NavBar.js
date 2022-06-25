@@ -6,7 +6,7 @@ import {HiMenu} from 'react-icons/hi';
 
 const NavBar = (props) => {
 
-    const {height, width} = useWindowDimensions();
+    const {width} = useWindowDimensions();
     const [showMobileNavLinks, setShowMobileNavLinks] = useState(false);
 
     const computerViewNavLinks =  (
