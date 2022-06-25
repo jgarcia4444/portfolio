@@ -6,6 +6,7 @@ body {
   background-color: var(--app-background-color);
   color: black;
   z-index: 1;
+  transition: all 500ms;
 }
 
 .app-background {
