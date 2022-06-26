@@ -1,0 +1,27 @@
+
+.project-imgs {
+    transition: all 500ms;
+    width: 100%;
+}
+
+.project-imgs:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer; 
+}
+
+.project-imgs-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-title {
+    font-size: 2em;
+}
+
+.project-img-container {
+    width: 30%;
+}

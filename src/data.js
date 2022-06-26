@@ -31,8 +31,8 @@ const projects = {
         {
             id: 1,
             title: "Dream Believe Achieve",
-            imgs: ["imgs/DreamBelieveAchieve/Favorites.PNG", "imgs/DreamBelieveAchieve/Home.PNG", "imgs/DreamBelieveAchieve/Quote.PNG", "imgs/DreamBelieveAchieve/Search.PNG", "imgs/DreamBelieveAchieve/SetTime.PNG"],
-            short: "iOS Inspirational Quote App. This app has over 1600 quotes that can be found randomly or by searching for keywords. Quote push notifications available.",
+            imgs: ["imgs/DreamBelieveAchieve/Home.PNG", "imgs/DreamBelieveAchieve/Favorites.PNG", "imgs/DreamBelieveAchieve/Landing.PNG", "imgs/DreamBelieveAchieve/Login.PNG",],
+            short: "Cross platform inspirational quote app. This app has over 400 quotes that are presented randomly daily.",
             long: "This project allowed me to create two projects in a sense. The main project being the iOS app Dream Believe Achieve and the secondary project a landing page (website) for the app. The app uses an api call to collect over sixteen hundred quotes from influential and wise people. It allows users to favorite a quote which then gets saved to their favorites page. On the favorites page a user can easily unfavorite the quote and remove it. The app also allows a user to search by keywords, which then displays all the quotes containing the keywords. Any time a quote is shown in the app a user has the ability to share the quote to their Facebook account or twitter account. The last but probably main feature is the app allows a user to set a time that then at that specified time sends a daily quote as a notification to the user. The landing page serves as a gateway to download the app and also serves as extra information about the app.",
             websiteUrl: "https://dreambelieveachieve.vercel.app/",
         },
