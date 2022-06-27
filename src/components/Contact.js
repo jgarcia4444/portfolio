@@ -8,24 +8,30 @@ const Contact = () => {
         <OpaqueContainer>
             <div className="container contact-page-container">
                 <h1 className="contact-title">Contact Info</h1>
-                <div className="contact-table">
                     <div className="contact-info-buttons">
-                        <a href="mailto:jgarciadev4444@gmail.com" className="contact-button email-button">
-                            <HiMail size={32} color='white' />
-                            <div className="contact-anchor-info" >jgarciadev4444@gmail.com</div>
-                        </a>
-                        <a href="tel:17608924561" className="contact-button phone-button">
-                            <HiPhone size={32} color='white' />
-                            <div className="contac-anchor-info">(760)-892-4561</div>
-                        </a>
+                        <div className="contact-button email-button">
+                            <a className="contact-inner-button email-inner-button" href="mailto:jgarciadev4444@gmail.com">
+                                <div className="contact-detail-container email-detail-container">
+                                    <HiMail size={32} color='black' /> jgarciadev4444@gmail.com
+                                </div>
+                            </a>
+                        </div>
+                        <div className="contact-button phone-button">
+                            <a className="contact-inner-button phone-inner-button" href="tel:17608924561">
+                                <div className="contact-detail-container phone-detail-container">
+                                    <HiPhone size={32} color='black' /> (760)-892-4561
+                                </div> 
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div className="information-container">
-                    <h3>Contact Details</h3>
-                    <ul>
-                        <li><strong>Email:</strong> In the subject add a short phrase of what the email consists of.</li>
-                        <li><strong>Phone:</strong> I will respond to phone calls as well as text messages. Leave a voice mail if I do not answer and I will get back to you as soon as possible.</li>
-                    </ul>
+                <div className="contact-table">
+                    <div className="information-container">
+                        <h3>Contact Details</h3>
+                        <ul>
+                            <li><strong>Email:</strong> In the subject add a short phrase of what the email consists of.</li>
+                            <li><strong>Phone:</strong> I will respond to phone calls as well as text messages. Leave a voice mail if I do not answer and I will get back to you as soon as possible.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </OpaqueContainer>
