@@ -43,6 +43,13 @@ a {
     box-shadow: none;
 }
 
+.contact-page-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
 .email-inner-button {
     border-right: 1px solid black;
     border-top-left-radius: 10px;
@@ -59,10 +66,33 @@ a {
     background-color: lightgray;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 2px -1px black;
+    text-align: left;
 }
 
 .contact-title {
     text-align: left;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+.contact-info {
+    transition: all 300ms;
+}
+
+@media only screen and (max-width: 1224px) {
+    .contact-info {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 1149px) {
+    .contact-info {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .contact-info {
+        display: none;
+    }
 }
